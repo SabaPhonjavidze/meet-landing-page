@@ -239,7 +239,7 @@ margin-top: 8px;
     background-position: left 0 top 176px;
     background-size: contain;
     mix-blend-mode: multiply;
-    
+    opacity: 0.7;
 }
 .Bg{
 margin-top: 176px;
@@ -310,4 +310,249 @@ font-size: 16px;
 font-style: normal;
 font-weight: 900;
 line-height: 26px; /* 162.5% */
+}
+
+@media (min-width:768px){
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Logo{
+        width: 119px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-top: 48px;
+    }
+    .ImgContainer1{
+        display: flex;
+        margin-top: 64px;
+        gap: 32px ;
+    }
+    .Img1{
+        width: 394px;
+        height: 303px;
+        flex-shrink: 0;
+    }
+    .Img2{
+        width: 394px;
+        height: 303px;
+        flex-shrink: 0;
+    }
+
+
+
+    .Info1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 72px;
+        gap: 24px;
+    }
+    .Head1{
+        color: #28283D;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px; /* 110% */
+    width: 339px;
+    
+    }
+    .Info1-Txt{
+        color: #87879D;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    width: 457px;
+    }
+    
+
+    .Buttons1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 32px;
+        gap: 16px;
+    }
+    
+
+   .Svg1st{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.ImgContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px ;
+    margin-top: 67px;
+}
+.Img3{
+    width: 151px;
+height: 143px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #D8D8D8;
+}
+.Img4{
+    border-radius: 8px;
+background: #D8D8D8;
+width: 151px;
+height: 143px;
+flex-shrink: 0;
+
+}
+.Img5{
+    width: 151px;
+height: 143px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #D8D8D8;
+}
+.Img6{
+    width: 151px;
+height: 143px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #D8D8D8;
+}
+
+
+.Info2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.Meetings{
+    color: #28283D;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px; /* 110% */
+width: 445px;
+}
+.Info2-Txt{
+
+color: #87879D;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+margin-top: 8px;
+width: 573px;
+}
+
+
+.Svg2nd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 47%;
+    margin-top: 64px;
+    position: absolute;
+    z-index: 1;
+}
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(assets/tablet/image-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: left 0 top 176px;
+    background-size: contain;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    
+}
+.Bg{
+margin-top: 176px;
+width: 100%;
+flex-shrink: 0;
+background-color: #4D96A9;
+mix-blend-mode: multiply;
+
+}
+.Info3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    position: absolute;
+    margin-top:160px;
+}
+.Starter2{
+    color: #FAFAFA;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 44px; /* 110% */
+width: 457px;
+}
+.Info3-Txt{
+    color: #FAFAFA;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 144.444% */
+width: 573px;
+}
+.Btn3{
+    width: 193px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 29px;
+background: #855FB1;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 4px;
+}
+.Btn3:hover{
+    border-radius: 29px;
+background: #B18BDD;
+}
+.Download2{
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px; /* 162.5% */
+}
+.Version2{
+    color: #D9B8FF;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 26px; /* 162.5% */
+}
+
 }
